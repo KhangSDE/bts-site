@@ -40,7 +40,7 @@ function Content() {
         <div className="content-container">
 
             <div className="bts-image">
-                <img src=".\bts-site\src\images\icons8-bts-logo-500.png" />
+                <img src=".\src\images\icons8-bts-logo-500.png" />
             </div>
 
             <div className="bts-album-container">
