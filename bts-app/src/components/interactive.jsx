@@ -26,7 +26,7 @@ function Interactive() {
                 title: "Butter",
                 info: "Butter, Christmans Ver., Party Ver.",
                 year: "2021",
-                audio: "src/audios/BTS - Butter (Lyrics).mp3",
+                audio: "audios/BTS - Butter (Lyrics).mp3",
             },
 
 
@@ -38,7 +38,7 @@ function Interactive() {
                 title: "Permission to dance",
                 info: "instrumental, night ver., rnb ver.",
                 year: "2021",
-                audio: "src/audios/ENHYPEN - FEVER.mp3",
+                audio: "audios/ENHYPEN - FEVER.mp3",
             }
         },
         {
@@ -48,7 +48,7 @@ function Interactive() {
                 title: "Take Two",
                 info: "Released for BTS fiesta ",
                 year: "2023",
-                audio: "src/audios/Take Two.mp3",
+                audio: "audios/Take Two.mp3",
             }
         },
         {
@@ -58,7 +58,7 @@ function Interactive() {
                 title: "BE",
                 info: "Fifth Album of BTS",
                 year: "2020",
-                audio: "src/audios/Awake.mp3",
+                audio: "audios/Awake.mp3",
             }
         },
         {
@@ -68,7 +68,7 @@ function Interactive() {
                 title: "You Never Walk Alone",
                 info: "Second Special Album of BTS",
                 year: "2017",
-                audio: "src/audios/Save.mp3",
+                audio: "audios/Save.mp3",
             }
         },
         {
@@ -78,7 +78,7 @@ function Interactive() {
                 title: "Wings",
                 info: "Second Full Lenght Album of BTS",
                 year: "2016",
-                audio: "src/audios/BST.mp3",
+                audio: "audios/BST.mp3",
             }
         },
         {
@@ -88,7 +88,7 @@ function Interactive() {
                 title: "PROOF",
                 info: "Last Album of BTS",
                 year: "2023",
-                audio: "src/audios/RUN BTS.mp3",
+                audio: "audios/RUN BTS.mp3",
             }
         },
         {
@@ -98,7 +98,7 @@ function Interactive() {
                 title: "Agust D",
                 info: "Solo Album of Suga from BTS",
                 year: "2016",
-                audio: "src/audios/Agust D.mp3",
+                audio: "audios/Agust D.mp3",
             }
         },
     ]
@@ -108,7 +108,7 @@ function Interactive() {
         <div className="interactive-container">
             <div className="input-container">
                 <input type="text" placeholder="suche ein Album" />
-                <img src="src\images\magnifying-glass.png" />
+                <img src="images\magnifying-glass.png" />
             </div>
         <div className="text-3">
             <p>Entdecke neue Informationen</p>

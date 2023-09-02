@@ -8,14 +8,14 @@ function Content() {
     const playAudio = () => {
     
         const audioURLs = [
-            "src/audios/bm.mp3",
-            "src/audios/Agust D.mp3",
-            "src/audios/Awake.mp3",
-            "src/audios/BST.mp3",
-            "src/audios/Save.mp3",
-            "src/audios/RUN BTS.mp3",
-            "src/audios/ENHYPEN - FEVER.mp3",
-            "src/audios/bm.mp3"
+            "audios/bm.mp3",
+            "audios/Agust D.mp3",
+            "audios/Awake.mp3",
+            "audios/BST.mp3",
+            "audios/Save.mp3",
+            "audios/RUN BTS.mp3",
+            "audios/ENHYPEN - FEVER.mp3",
+            "audios/bm.mp3"
         ];
 
         if (!audioPlaying) {
@@ -40,7 +40,7 @@ function Content() {
         <div className="content-container">
 
             <div className="bts-image">
-                <img src=".\src\images\icons8-bts-logo-500.png" />
+                <img src="images\icons8-bts-logo-500.png" />
             </div>
 
             <div className="bts-album-container">
