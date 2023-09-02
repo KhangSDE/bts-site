@@ -1,0 +1,440 @@
+body {
+    background-color: rgb(26, 27, 58);
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    
+
+}
+
+
+header {
+    background-color: rgba(20, 20, 65, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bts-text {
+    color: white;
+    font-size: 3em;
+    padding: 10px 60px;
+}
+
+.menu img{
+    filter: invert();
+    width: 2rem;
+    height: auto;
+    padding: 10px;
+    transition: 0.4s;
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 100;
+}
+
+.menu img:hover {
+    transform: scaleY(1.2);
+}
+.content-container {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 45vw;
+    
+    
+}
+
+.bts-image {
+    
+    width: 20vw;
+    height: 30vw;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    
+}
+@media(max-width: 1500px) {
+    .bts-image{
+        width: 30vw;
+        height: 40vw;
+        margin-left: 15vw;
+        margin-top: -2vw;
+    }
+}
+
+
+.bts-image img {
+    filter: invert();
+    width: 20vw;
+}
+
+.text-1 {
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+    top: 10vw;
+    position: absolute;
+    right: 15vw;
+}
+@media(max-width: 1500px) {
+    .text-1{
+        display: none;
+    }
+}
+
+.text-1 br {
+    color: cyan;
+}
+
+.text-2 {
+    color: white;
+    word-break: break-all;
+    background-color: #4d485500;
+    width: 35vw;
+    position: absolute;
+    right: 20px;
+    top: 26vw;
+    
+}
+@media(max-width: 1500px) {
+    .text-2{
+        display: none;
+    }
+}
+
+.bts-album-container {
+    background-color: rgba(255, 255, 255, 0.151);
+    position: absolute;
+    width: 25vw;
+    height: 30vw;
+    top: 11vw;
+    left: 30vw;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 3px 10px 1px #000000; 
+    box-shadow: 0px 3px 10px 1px #000000;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    justify-content: center;
+    align-items: center;
+
+}
+@media(max-width: 1500px) {
+    .bts-album-container{
+        width: 40vw;
+        height: 50vw;
+        left: 50vw;
+        top: 5vw;
+    }
+}
+
+.bts-album-container .album-image {
+    background-color: white;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 30px;
+    position: relative;
+    left: 30px;
+    transition: 0.4s;
+    
+    -webkit-box-shadow: 9px 10px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 9px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 10px 9px 0px rgba(0,0,0,0.75);
+    
+}
+@media(max-width: 1500px) {
+    .bts-album-container .album-image{
+        width: 13vw;
+        height: 13vw;
+        border-radius: 15px;
+        left: 12px;
+    }
+}
+
+.bts-album-container .album-image:hover {
+    transform: translateY(-10px);
+    
+    
+}
+
+.button-song {
+    width: 15vw;
+    height: 4vw;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff92e7;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    position: absolute;
+    right: 15vw;
+    bottom: 10vw;
+    transition: 0.4s
+
+
+}
+
+@media(max-width: 1500px) {
+    .button-song{
+        display: none;
+    }
+}
+.button-song:hover {
+    transform: translateY(-10px);
+}
+
+.interactive-container {
+    background-color: white;
+    width: 100%;
+    height: 60vw;
+    background-color: #4d4855;
+    background-image: linear-gradient(189deg, #4d4855 0%, #000000 74%);
+    
+    
+
+}
+
+.input-container {
+    background-color: rgba(0, 0, 0, 0.226);
+    width: 50vw;
+    height: 5vw;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    top: 2vw;
+    gap: 10px;
+
+    
+
+}
+.input-container input{
+    outline: none;
+    border: none;
+    width: 40vw;
+    height: 2.7vw;
+    border-radius: 20px;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+@media(max-width: 1500px) {
+    .input-container{
+        display: none;
+    }
+}
+.input-container img {
+    width: 3vw;
+    filter: invert();
+    transition: 0.4s;
+}
+.input-container img:hover {
+    transform: translateX(10px);
+}
+
+.text-3 {
+    color: white;
+    font-size: 3rem;
+    position:relative;
+    margin: auto;
+    display: flex;
+    top: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1500px) {
+    .text-3{
+        display: none;
+    }
+}
+
+.member-container {
+    background-color: rgba(255, 255, 255, 0.055);
+    width: 94vw;
+    height: 45vw;
+    position: relative;
+    margin: auto;
+    border-radius: 50px;
+    top: -2vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    
+    
+    
+}
+
+.member-container .song-image {
+    background-color: white;
+    border-radius: 30px;
+    transition: 0.4s;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    margin: auto;
+    transition: 0.4s;
+    -webkit-box-shadow: 9px 12px 0px 0px rgba(255, 0, 225, 0.322); 
+    box-shadow: 9px 12px 0px 0px rgba(173, 173, 173, 0.164);
+    
+}
+.member-container .song-image:hover{
+    transform: translateY(-10px);
+}
+
+.album-info-container {
+    background-color: #474747ef;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    border-radius: 30px;
+    
+    animation: album 0.4s ease 0s 1 normal forwards;
+}
+
+
+
+
+.close-album-info img {
+    width: 2rem;
+    filter: invert();
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transition: 0.4s;
+}
+.close-album-info img:hover {
+    transform: translateY(-4px);
+}
+.image1 {
+    background-color: rgba(255, 255, 255, 0);
+    width: 30vw;
+    height: 30vw;
+    border-radius: 30px;
+    position: relative;
+    top: 5vw;
+    left: 10vw;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 5px 0px 3px #0000007a; 
+    box-shadow: 5px 5px 0px 3px #00000044;
+}
+.image1 img {
+    width: 100%;
+}
+
+.song-text {
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+    left: 15vw;
+    background-color: #ff32d300;
+    width: 21vw;
+    text-align: center;
+    
+}
+@media(max-width: 1500px) {
+    .song-text{
+        display: none;
+    }
+}
+
+@keyframes album {
+	0% {
+		opacity: 0;
+		transform: rotateY(100deg);
+		transform-origin: left;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateY(0);
+		transform-origin: left;
+	}
+}
+
+.album-info-container .audio {
+    width: 15vw;
+    height: 4vw;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    right: 20vw;
+    bottom: 20vw;
+}
+.album-info-container .audio .play-audio {
+    width: 15vw;
+    height: 4vw;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-size: 2vw;
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
+    color: #00000080;
+    transition: 0.4s;
+}
+.album-info-container .audio .play-audio:hover {
+    transform: translateY(-10px);
+}
+
+.songs {
+    background-color: rgba(0, 255, 255, 0);
+    width: 25vw;
+    height: 5vw;
+    font-size: 1.4vw;
+    position: absolute;
+    right: 15vw;
+    top: 5vw;
+    text-align: center;
+}
+.songs p {
+    color: white;
+    
+}
+
+.year-song {
+    width: 10vw;
+    height: 4vw;
+    font-size: 3vw;
+    position: absolute;
+    top: 7vw;
+    right: 20vw;
+    color: white;
+    text-shadow: 4px 3px 0px #000000;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #969696 #ffffff00;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+    background-color: rgba(0, 255, 255, 0);
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #9696968e;
+    border-radius: 10px;
+    
+  }
