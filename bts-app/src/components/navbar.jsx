@@ -21,7 +21,7 @@ function Navbar() {
         </div>
         
         <div className="menu" onClick={scroll}>
-            <img src="images\eeee.png" />
+            <img src=".\images\eeee.png" />
         </div>
             
         </header>

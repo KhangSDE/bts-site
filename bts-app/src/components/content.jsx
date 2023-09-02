@@ -8,14 +8,14 @@ function Content() {
     const playAudio = () => {
     
         const audioURLs = [
-            "audios/bm.mp3",
-            "audios/Agust D.mp3",
-            "audios/Awake.mp3",
-            "audios/BST.mp3",
-            "audios/Save.mp3",
-            "audios/RUN BTS.mp3",
-            "audios/ENHYPEN - FEVER.mp3",
-            "audios/bm.mp3"
+            "./audios/bm.mp3",
+            "./audios/Agust D.mp3",
+            "./audios/Awake.mp3",
+            "./audios/BST.mp3",
+            "./audios/Save.mp3",
+            "./audios/RUN BTS.mp3",
+            "./audios/ENHYPEN - FEVER.mp3",
+            "./audios/bm.mp3"
         ];
 
         if (!audioPlaying) {

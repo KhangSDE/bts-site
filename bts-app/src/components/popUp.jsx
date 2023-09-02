@@ -35,7 +35,7 @@ const PopUp = ({open, onClose, albumData}) => {
         <div className="album-info-container">
                         
                     <div className="close-album-info" onClick={handleClose}>
-                        <img src="images\close.png"/>
+                        <img src=".\images\close.png"/>
                     </div>
                                         
                     <div className="image1">
